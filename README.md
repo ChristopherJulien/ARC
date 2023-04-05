@@ -18,7 +18,7 @@ To access the cluster, you need to be connect to the ETH network or use the CISC
 You can run your training at Euler cluster.  
 You can check the documents [here](https://scicomp.ethz.ch/wiki/Main_Page).
 
-This is a guide about how to run the [legged_gym](https://bitbucket.org/leggedrobotics/legged_gym/src/master/) code on the cluster.
+This is a guide about how to run the [isaac_gym_envs](https://github.com/NVIDIA-Omniverse/IsaacGymEnvs) code on the cluster.
 
 Some info.  
 - [batch system](https://scicomp.ethz.ch/wiki/Using_the_batch_system)  
@@ -28,7 +28,6 @@ Some info.
 
 Please check the presentation to create an account, setup SSH keys, and request access to the RSL group.
 
-Also check the tipps and tricks in the FIX[isaac_gym_envs](https://bitbucket.org/leggedrobotics/legged_gym/src/fb015b00ba49f3fad9cf967d0743a1ef3e0e3a0d/tipps_tricks/?at=feature%2Fcluster_readme) repo.
 
 ## Setting up dependencies on the cluster
 
@@ -57,7 +56,7 @@ Install at least 3.x version to your PC.
 Also, install docker. This is because the isaac_gym_envs singularity container is built from docker image.
 
 ### Installing issacgym and isaac_gym_envs on your machine
-Please follow the steps on FIX[isaac_gym_envs](https://bitbucket.org/leggedrobotics/legged_gym/src/3fbe6f7c5d6ef4b9337eedcfbd73cb3e093b6512/?at=feature%2Fcluster_readme) repo.
+Please follow the steps on [isaac_gym_envs](https://github.com/NVIDIA-Omniverse/IsaacGymEnvs/blob/main/README.md) repo.
 Namely, install the repo isaacgym from Nvidia and clone the repos rsl_rl and legged_gym into this directory /home/<username>/isaac_ws/
 ```bash
 mkdir ~/issac_ws
