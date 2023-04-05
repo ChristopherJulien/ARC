@@ -1,6 +1,7 @@
 # Isaacgym Learning Pipeline
+(Adapted by Christopher Julien Stocker) 
 
-Author: Christopher Stocker adapted from Filip Bjelonic <filipb@leggedrobotics.com>
+Author: Filip Bjelonic <filipb@leggedrobotics.com>
 
 Co-Author: Jonas Frey <jonfrey@leggedrobotics.com>
 
