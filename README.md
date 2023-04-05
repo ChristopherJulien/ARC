@@ -1,4 +1,4 @@
-# Isaacgym Learning Pipeline
+# Isaac Gym Envs Learning Pipeline
 (Adapted by Christopher Julien Stocker) 
 
 Author: Filip Bjelonic <filipb@leggedrobotics.com>
