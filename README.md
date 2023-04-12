@@ -61,7 +61,8 @@ Namely, install the repo isaacgym from Nvidia and clone the repos rsl_rl and leg
 ```bash
 mkdir ~/issac_ws
 ```
-Here, you can clone the three repos. Replace \<user\> by your cluster username (same as eth username)
+Here, you can clone the three repos. Replace \<user\> by your cluster username (same as eth username) 
+ ! Warning this will work to download rls_rl, legged_gym, and isaac_gym, but not isaac_gym_ens this must be done manually through git.
 ```bash
 echo "export EULER_USER=<user>" >> ~/.bashrc
 ```
